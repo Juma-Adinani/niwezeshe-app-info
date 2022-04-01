@@ -25,15 +25,15 @@ const TopBar = ({isOpen, toggle}) => {
             <TopBarLink to="discover" onClick={toggle}>
               Discover
             </TopBarLink>
-            <TopBarLink to="services" onClick={toggle}>
+            <TopBarLink to="service" onClick={toggle}>
               Services
             </TopBarLink>
-            <TopBarLink to="signup" onClick={toggle}>
-              Sign Up
+            <TopBarLink to="join" onClick={toggle}>
+              join
             </TopBarLink>
           </TopBarMenu>
           <TopBtnWrap>
-            <TopBarBtn to="/signin">Sign In</TopBarBtn>
+            <TopBarBtn to="/">FAQ</TopBarBtn>
           </TopBtnWrap>
         </TopBarWrapper>
       </TopBarContainer>

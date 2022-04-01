@@ -1,19 +1,19 @@
 export const homeObjOne = {
-  id: "about",
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  id: "home",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: "Niwezeshe App",
-  headline: "P2p lending and borrowing",
+  headline: "P2P MONEY BORROWING AND LENDING MADE EASY",
   description:
     "Connect with people from your contacts to know who can offer you a quick loan.",
   buttonLabel: "Learn more",
   imgStart: false,
-  img: require("../../images/svg_1.svg").default,
+  img: require("../../images/homepage.svg").default,
   alt: "obj one",
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 };
 
 export const homeObjTwo = {

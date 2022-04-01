@@ -22,14 +22,15 @@ const HeroSection = () => {
 
   return (
     <>
-      <HeroContainer>
+      <HeroContainer id="about">
         <HeroBg>
           <VideoBg autoplay loop muted src={Video} type="video/mp4" />
         </HeroBg>
         <HeroContent>
-          <HeroH1>P2P MONEY BORROWING AND LENDING MADE EASY</HeroH1>
+          <HeroH1>Peer to peer borrowing and lending</HeroH1>
           <HeroP>
-            Download niwezeshe app now from playstore to enjoy the service
+            This platform only includes peers from your contacts who also use the app. This is essential to ensure 
+            that you can only borrow and lend money to people you know.<br/>
           </HeroP>
           <HeroBtnWrapper>
             <Button

@@ -8,7 +8,6 @@ import {
   ServicesH1,
   ServicesWrapper,
   ServicesCard,
-  ServicesIcon,
   ServicesH2,
   ServicesP,
 } from "./ServicesElements";
@@ -20,7 +19,7 @@ const Services = () => {
         <ServicesH1>Our Services</ServicesH1>
         <ServicesWrapper>
           <ServicesCard>
-            <ServicesIcon src={Icon1} alt="image1" />
+            <img width="100" height="100" src={Icon1} alt="image1" />
             <ServicesH2>Ensure Credit Store</ServicesH2>
             <ServicesP>
               We help reduce your fees and increase your overall revenue. Using
@@ -29,14 +28,14 @@ const Services = () => {
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
-            <ServicesIcon src={Icon2} alt="image2" />
+            <img width="100" height="100" src={Icon2} alt="image2" />
             <ServicesH2>Assure safer transactions</ServicesH2>
             <ServicesP>
               Added ability to send attachments while applying for a loan.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
-            <ServicesIcon src={Icon3} alt="image3" />
+            <img width="100" height="100" src={Icon3} alt="image3" />
             <ServicesH2>Premium Benefits</ServicesH2>
             <ServicesP>
               We provide a casual benefit on using this app. Example loan : If

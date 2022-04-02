@@ -22,12 +22,12 @@ const Home = () => {
     <>
       <TopBar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
+      <HeroSection />
       <InfoSection {...homeObjOne} />
-      <HeroSection />      
       <InfoSection {...homeObjTwo} />
-      <Services/>
+      <Services />
       <InfoSection {...homeObjThree} />
-      <Footer/>
+      <Footer />
     </>
   );
 };

@@ -47,45 +47,45 @@ export const VideoBg = styled.video`
   background: #232a34;
 `;
 
-// export const HeroContent = styled.div`
-//   z-index: 3;
-//   max-width: 1200px;
-//   position: absolute;
-//   padding: 8px 24px;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-// `;
+export const HeroContent = styled.div`
+  z-index: 3;
+  max-width: 1200px;
+  position: absolute;
+  padding: 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
-// export const HeroH1 = styled.h1`
-//   color: #fff;
-//   font-size: 50px;
-//   text-align: center;
+export const HeroH1 = styled.h1`
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
 
-//   @media screen and (max-width: 768px) {
-//     font-size: 40px;
-//   }
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
 
-//   @media screen and (max-width: 480px) {
-//     font-size: 32px;
-//   }
-// `;
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
+`;
 
-// export const HeroP = styled.p`
-//   margin-top: 24px;
-//   color: #fff;
-//   font-size: 24px;
-//   text-align: start;
-//   max-width: 600px;
+export const HeroP = styled.p`
+  margin-top: 24px;
+  color: #fff;
+  font-size: 24px;
+  text-align: start;
+  max-width: 600px;
 
-//   @media screen and (max-width: 768px) {
-//     font-size: 24px;
-//   }
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+  }
 
-//   @media screen and (max-width: 480px) {
-//     font-size: 18px;
-//   }
-// `;
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
+`;
 
 export const HeroBtnWrapper = styled.div`
   margin-top: 32px;
@@ -103,7 +103,6 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   margin-left: 8px;
   font-size: 20px;
 `;
-
 
 // MODIFICATION FOR THE HERO SECTION
 
@@ -129,7 +128,6 @@ export const HomeSection = styled.section`
     padding-bottom: 2rem;
   }
 `;
-
 
 export const MainContent = styled.div`
   display: flex;
@@ -159,7 +157,7 @@ export const MobileSvg = styled.img`
   }
   @media only Screen and (max-width: 40em) {
     /* display: none; */
-    width:700px;
+    width: 700px;
   }
 `;
 
@@ -196,7 +194,6 @@ export const Topic = styled.span`
   padding: 0.5rem 1rem;
   border-radius: 20px;
 `;
-
 
 export const Title = styled.h1`
   font-size: calc(2rem + 1vw);

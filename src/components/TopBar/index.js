@@ -7,10 +7,10 @@ import {
   TopBarLink,
   TopBtnWrap,
   TopBarBtn,
-  TopBarMenu
+  TopBarMenu,
 } from "./TopBarElements";
 
-const TopBar = ({isOpen, toggle}) => {
+const TopBar = ({ isOpen, toggle }) => {
   return (
     <>
       <TopBarContainer isOpen={isOpen} onClick={toggle}>

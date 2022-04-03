@@ -93,7 +93,9 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/"><b>FAQ</b></NavBtnLink>
+            <NavBtnLink to="/">
+              <b>FAQ</b>
+            </NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

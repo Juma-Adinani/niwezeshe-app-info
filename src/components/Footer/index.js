@@ -1,6 +1,7 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 import {
   FooterContainer,
   FooterWrap,
@@ -29,23 +30,29 @@ const Footer = () => {
           <FooterLinkContainer>
             <FooterLinksWrapper>
               <FooterLinkItems>
-                <FooterLinkTitle>About Us</FooterLinkTitle>
-                <FooterLink to="/">How it works</FooterLink>
-                <FooterLink to="/">Terms of Service</FooterLink>
-              </FooterLinkItems>
-            </FooterLinksWrapper>
-            <FooterLinksWrapper>
-              <FooterLinkItems>
                 <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                <FooterLink to="/">Contact</FooterLink>
-                <FooterLink to="/">Support</FooterLink>
+                <FooterLink to="/">
+                  <AiOutlinePhone />
+                  +255 754 678 908
+                </FooterLink>
+                <FooterLink to="/">
+                  <AiOutlineMail />
+                  info@niwezeshe.com
+                </FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
             <FooterLinksWrapper>
               <FooterLinkItems>
-                <FooterLinkTitle>Policy</FooterLinkTitle>
-                <FooterLink to="/">Terms & conditions</FooterLink>
-                <FooterLink to="/">Policy of service</FooterLink>
+                <FooterLinkTitle>About Us</FooterLinkTitle>
+                <FooterLink to="/about">How it works</FooterLink>
+                <FooterLink to="/">Company</FooterLink>
+              </FooterLinkItems>
+            </FooterLinksWrapper>
+            <FooterLinksWrapper>
+              <FooterLinkItems>
+                <FooterLinkTitle>Terms & conditions</FooterLinkTitle>
+                <FooterLink to="/terms">Terms of use</FooterLink>
+                <FooterLink to="/privacy">Privacy</FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
           </FooterLinkContainer>
@@ -59,7 +66,8 @@ const Footer = () => {
                 /> */}
               </BrandLogo>
               <WebsiteRights>
-                Niwezeshe @ {new Date().getFullYear()}, All rights reserved.
+                Niwezeshe &copy; {new Date().getFullYear()}, All rights
+                reserved.
               </WebsiteRights>
               <SocialIcons>
                 <SocialIconsLink to="/" target="_black" arial_label="Facebook">

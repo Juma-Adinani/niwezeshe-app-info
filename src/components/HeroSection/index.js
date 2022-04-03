@@ -42,7 +42,7 @@ const HeroSection = () => {
             </SubText>
             <HeroBtnWrapper>
               <Button
-                to=""
+                href="https://onelink.to/niwezeshe"
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 primary="true"

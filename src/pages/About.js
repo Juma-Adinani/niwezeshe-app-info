@@ -7,10 +7,10 @@ import Footer from "../components/Footer";
 function About() {
   return (
     <>
-    <NavbarSection/>
+      <NavbarSection />
       <Banner
         title="How it works"
-        subtitle="This platform only includes peers from your contacts who also use the app. This is essential to ensure that you can only borrow and lend money to people you know."
+        subtitle="Our aim is to make lending and borrowing as as counting 1,2,3 to everyone"
       />
       <AboutSection />
       <Footer />

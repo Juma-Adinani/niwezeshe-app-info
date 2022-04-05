@@ -32,9 +32,9 @@ const TopBar = ({ isOpen, toggle }) => {
               join
             </TopBarLink>
           </TopBarMenu>
-          <TopBtnWrap>
+          {/* <TopBtnWrap>
             <TopBarBtn to="/">FAQ</TopBarBtn>
-          </TopBtnWrap>
+          </TopBtnWrap> */}
         </TopBarWrapper>
       </TopBarContainer>
     </>

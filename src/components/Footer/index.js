@@ -22,6 +22,27 @@ const Footer = () => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
+  const openLink = (href, e) => {
+    e && e.preventDefault()
+    window.location.href = href;
+  }
+  const socialMediaLinks = [
+    {
+      icon: <FaInstagram />,
+      label: "Facebook",
+      url: 'https://facebook.com/niwezesheapp'
+    },
+    {
+      icon: <FaFacebook />,
+      label: "Instagram",
+      url: 'https://instagram.com/niwezesheapp'
+    },
+    // {
+    //   icon: <FaTwitter />,
+    //   label: "Twitter",
+    //   url: 'https://twitter.com/niwezesheapp'
+    // },
+  ]
 
   return (
     <>
@@ -31,13 +52,14 @@ const Footer = () => {
             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>Contact Us</FooterLinkTitle>
-                <FooterLink to="/">
+                {/* <FooterLink to="tel:">
                   <AiOutlinePhone />
-                  +255 754 678 908
-                </FooterLink>
-                <FooterLink to="/">
+                </FooterLink> */}
+                <FooterLink to="." target="_black"
+                  onClick={(e) => openLink('mailto:niwezeshe@hudumabomba.com', e)}
+                >
                   <AiOutlineMail />
-                  info@niwezeshe.com
+                  niwezeshe@hudumabomba.com
                 </FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
@@ -45,7 +67,9 @@ const Footer = () => {
               <FooterLinkItems>
                 <FooterLinkTitle>About Us</FooterLinkTitle>
                 <FooterLink to="/about">How it works</FooterLink>
-                <FooterLink to="/">Company</FooterLink>
+                <FooterLink
+                  target="_black" to='.'
+                  onClick={(e) => openLink("https://hudumabomba.com", e)} >Company</FooterLink>
               </FooterLinkItems>
             </FooterLinksWrapper>
             <FooterLinksWrapper>
@@ -70,15 +94,17 @@ const Footer = () => {
                 reserved.
               </WebsiteRights>
               <SocialIcons>
-                <SocialIconsLink to="/" target="_black" arial_label="Facebook">
-                  <FaFacebook />
-                </SocialIconsLink>
-                <SocialIconsLink to="/" target="_black" arial_label="Twitter">
-                  <FaTwitter />
-                </SocialIconsLink>
-                <SocialIconsLink to="/" target="_black" arial_label="Instagram">
-                  <FaInstagram />
-                </SocialIconsLink>
+                {
+                  socialMediaLinks.map((media, index) => (
+                    <SocialIconsLink
+                      onClick={(e) => openLink(media.url, e)}
+                      key={index} to="."
+                      target="_black"
+                      arial_label={media.label}>
+                      {media.icon}
+                    </SocialIconsLink>
+                  ))
+                }
               </SocialIcons>
             </SocialMediaWrap>
           </SocialMedia>

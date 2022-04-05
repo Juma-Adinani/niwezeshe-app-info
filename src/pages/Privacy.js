@@ -7,13 +7,13 @@ import NavbarSection from "../components/NavbarSection";
 const Privacy = () => {
   return (
     <>
-    <NavbarSection/>
+      <NavbarSection />
       <Banner
         title="Privacy"
-        subtitle="These are the privacy we ensure to you."
+        subtitle="Privacy and data protection is paramount to us"
       />
-      <PrivacySection/>
-      <Footer/>
+      <PrivacySection />
+      <Footer />
     </>
   );
 };

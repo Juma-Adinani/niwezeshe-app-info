@@ -196,14 +196,14 @@ export const Topic = styled.span`
 `;
 
 export const Title = styled.h1`
-  font-size: calc(2rem + 1vw);
+  font-size: calc(1.2rem + 1vw);
   line-height: 1.2;
   padding: 0.5rem 0;
   color: #fff;
 `;
 
 export const SubText = styled.h5`
-  font-size: calc(0.5rem + 0.5vw);
+  font-size: calc(0.5rem + 0.4vw);
   /* color: var(--nav2); */
   color: #fff;
 `;

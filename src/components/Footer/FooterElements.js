@@ -102,7 +102,7 @@ export const WebsiteRights = styled.small`
 
 export const SocialIcons = styled.div`
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-around; */
   align-items: center;
   width: 240px;
 `;
@@ -110,4 +110,5 @@ export const SocialIcons = styled.div`
 export const SocialIconsLink = styled(Link)`
   color: #fff;
   font-size: 24px;
+  padding-right: 20px
 `;

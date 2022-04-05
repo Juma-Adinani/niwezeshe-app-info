@@ -26,6 +26,8 @@ const InfoSection = ({
   description,
   buttonLabel,
   alt,
+  to = "home",
+  href,
   imgStart,
   primary,
   dark,
@@ -41,9 +43,10 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
-                <BtnWrap>
+                {!!buttonLabel && <BtnWrap>
                   <Button
-                    to="home"
+                    to={to}
+                    href={href}
                     smooth="true"
                     duration={500}
                     spy="true"
@@ -55,7 +58,7 @@ const InfoSection = ({
                   >
                     {buttonLabel}
                   </Button>
-                </BtnWrap>
+                </BtnWrap>}
               </TextWrapper>
             </Column1>
             <Column2>

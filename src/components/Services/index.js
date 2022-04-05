@@ -13,37 +13,41 @@ import {
 } from "./ServicesElements";
 
 const Services = () => {
+  const services = [
+    {
+      icon: Icon3,
+      title: 'Premium Benefits',
+      description: `Instead of letting your money idle in a bank help peers,
+      make an impact by helping peers in need and earn a decent income in return`
+    },
+    {
+      icon: Icon2,
+      title: 'Credit Scoring',
+      description: `To mitigate lending risks before deciding to approve a loan, 
+      we calculate and show you borrower's likelihood to pay on time or default`
+    },
+    {
+      icon: Icon1,
+      title: 'Privacy & Data Protection',
+      description: `We never ask for data more than what is required to help our
+      aligorithm work. Unlike other platforms, no need to surrender your SMS and call logs`
+    },
+
+  ]
   return (
     <>
       <ServicesContainer id="service">
-        <ServicesH1>Our Services</ServicesH1>
+        <ServicesH1>What we offer</ServicesH1>
         <ServicesWrapper>
-          <ServicesCard>
-            <img width="100" height="100" src={Icon1} alt="image1" />
-            <ServicesH2>Ensure Credit Store</ServicesH2>
-            <ServicesP>
-              We help reduce your fees and increase your overall revenue. Using
-              our proprietary aligorithms, before giving a loan to your peers,
-              quickly identify peers likelihood to pay you back on time.
-            </ServicesP>
-          </ServicesCard>
-          <ServicesCard>
-            <img width="100" height="100" src={Icon2} alt="image2" />
-            <ServicesH2>Assure safer transactions</ServicesH2>
-            <ServicesP>
-              Added ability to send attachments while applying for a loan.
-            </ServicesP>
-          </ServicesCard>
-          <ServicesCard>
-            <img width="100" height="100" src={Icon3} alt="image3" />
-            <ServicesH2>Premium Benefits</ServicesH2>
-            <ServicesP>
-              We provide a casual benefit on using this app. Example loan : If
-              the loan principal is $10,000, an interest rate of 20% per annum
-              (20% APR), 6 installments of $2,000 every 2 months. This sums to
-              $12,000 with everything included.
-            </ServicesP>
-          </ServicesCard>
+          {services.map(((service, index) => (
+            <ServicesCard key={index}>
+              <img width="100" height="100" src={service.icon} alt={service.title} />
+              <ServicesH2>{service.title}</ServicesH2>
+              <ServicesP>
+                {service.description}
+              </ServicesP>
+            </ServicesCard>
+          )))}
         </ServicesWrapper>
       </ServicesContainer>
     </>

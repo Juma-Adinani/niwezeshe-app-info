@@ -7,13 +7,13 @@ import Footer from "../components/Footer";
 const Terms = () => {
   return (
     <>
-    <NavbarSection/>
+      <NavbarSection />
       <Banner
         title="Terms"
-        subtitle="Terms & Conditions on using NIWEZESHE App."
+        subtitle="Terms & Conditions on using niwezeshe App."
       />
-      <TermSection/>
-      <Footer/>
+      <TermSection />
+      <Footer />
     </>
   );
 };

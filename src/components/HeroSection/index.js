@@ -35,10 +35,10 @@ const HeroSection = () => {
             <Topic>
               <span>Niwezeshe App</span>
             </Topic>
-            <Title>P2P MONEY BORROWING AND LENDING MADE EASY</Title>
+            <Title>P2P LENDING & BORROWING MADE EASY</Title>
             <SubText>
-              Connect with people from your contacts to know who can offer you a
-              quick loan.
+              Connect with people from your contacts
+              to know who can offer you an instant loan.
             </SubText>
             <HeroBtnWrapper>
               <Button
@@ -52,6 +52,7 @@ const HeroSection = () => {
                 spy={true}
                 exact="true"
                 offset={-80}
+                target='_blank'
               >
                 Download Now {hover ? <ArrowForward /> : <ArrowRight />}
               </Button>

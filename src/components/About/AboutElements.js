@@ -35,12 +35,15 @@ export const CardTitle = styled.h1`
 
 export const List = styled.ul`
   margin-left: 40px;
+  padding:0px;
+  padding-bottom:40px;
+  /* padding-bottom:200px; */
 `;
 
 export const CardBody = styled.p`
   margin-top: 24px;
   color: #000;
-  font-size: 24px;
+  font-size: 1.2em;
   text-align: start;
   /* min-width: 600px; */
   margin-left: 30px;

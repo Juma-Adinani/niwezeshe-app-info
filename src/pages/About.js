@@ -10,7 +10,7 @@ function About() {
       <NavbarSection />
       <Banner
         title="How it works"
-        subtitle="Our aim is to make lending and borrowing as as counting 1,2,3 to everyone"
+        subtitle="Our aim is to make lending and borrowing to everyone as simple as counting 1,2,3"
       />
       <AboutSection />
       <Footer />

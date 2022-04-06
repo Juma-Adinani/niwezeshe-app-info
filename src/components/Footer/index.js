@@ -28,12 +28,12 @@ const Footer = () => {
   }
   const socialMediaLinks = [
     {
-      icon: <FaInstagram />,
+      icon: <FaFacebook />,
       label: "Facebook",
       url: 'https://facebook.com/niwezesheapp'
     },
     {
-      icon: <FaFacebook />,
+      icon: <FaInstagram />,
       label: "Instagram",
       url: 'https://instagram.com/niwezesheapp'
     },

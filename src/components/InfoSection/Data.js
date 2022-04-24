@@ -7,7 +7,7 @@ export const homeObjOne = {
   headline: "for the banked and the unbanked",
   description:
     "Get loans from peers and verified financial institutions in a minute with as less documentation as possible",
-  buttonLabel: "Learn more",
+  buttonLabel: "",
   imgStart: true,
   img: require("../../images/svg_2.svg").default,
   alt: "obj one",

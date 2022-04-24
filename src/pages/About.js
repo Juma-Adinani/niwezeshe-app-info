@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutSection from "../components/About";
 import NavbarSection from "../components/NavbarSection";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 
 function About() {
+  useEffect(() => {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }, [])
   return (
     <>
       <NavbarSection />

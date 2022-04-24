@@ -77,6 +77,12 @@ const AboutSection = () => {
                   Manage all your loan applications in one place
                 </CardBody>
               </li>
+              <li>
+                <CardBody>
+                  Smart debt collection by sending automated daily debt reminders to your debtors directly
+                  from your phone. Contact us to request this feature
+                </CardBody>
+              </li>
             </List>
           </AboutCard>
         </AboutCardWrapper>
@@ -103,6 +109,12 @@ const AboutSection = () => {
                   Organization can specify required documents for each loan
                   portifolio, review attached documents, and reply to
                   applicants' inquiries
+                </CardBody>
+              </li>
+              <li>
+                <CardBody>
+                  Smart debt collection by sending automated daily debt reminders to your debtors directly
+                  from your phone. Contact us to request this feature
                 </CardBody>
               </li>
             </List>

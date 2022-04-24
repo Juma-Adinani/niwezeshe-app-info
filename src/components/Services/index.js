@@ -28,9 +28,10 @@ const Services = () => {
     },
     {
       icon: Icon1,
-      title: 'Privacy & Data Protection',
-      description: `We never ask for data more than what is required to help our
-      aligorithm work. Unlike other platforms, no need to surrender your SMS and call logs`
+      title: 'Debt Collection',
+      description: `By just providing debtor's phone number, 
+      Pursue payments of debts by sending automated SMS reminders everyday to the debtors
+      `
     },
 
   ]

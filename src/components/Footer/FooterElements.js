@@ -21,6 +21,7 @@ export const FooterLinkContainer = styled.div`
   width: 100%;
   @media screen and (max-width: 820px) {
     padding-top: 32px;
+    display: inline;
   }
 `;
 

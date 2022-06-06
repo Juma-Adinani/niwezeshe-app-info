@@ -38,7 +38,7 @@ const HeroSection = () => {
             <Title>P2P LENDING & BORROWING MADE EASY</Title>
             <SubText>
               Connect with people from your contacts
-              to know who can offer you an instant loan.
+              to know who can offer you an instant loan and get cash back if pay on time
             </SubText>
             <HeroBtnWrapper>
               <Button

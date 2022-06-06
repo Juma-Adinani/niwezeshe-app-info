@@ -17,14 +17,14 @@ const Services = () => {
     {
       icon: Icon3,
       title: 'Premium Benefits',
-      description: `Instead of letting your money idle in a bank help peers,
-      make an impact by helping peers in need and earn a decent income in return`
+      description: `Instead of letting your money idle in a bank; help peers,
+      make an impact by helping those in need and earn a decent income in return`
     },
     {
       icon: Icon2,
       title: 'Credit Scoring',
       description: `To mitigate lending risks before deciding to approve a loan, 
-      we calculate and show you borrower's likelihood to pay on time or default`
+      we calculate and show you the borrower's likelihood to pay on time or default`
     },
     {
       icon: Icon1,

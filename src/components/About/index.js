@@ -39,6 +39,12 @@ const AboutSection = () => {
               </li>
               <li>
                 <CardBody>
+                  Cash back. Get paid back if you pay your loan on time or before the due date.
+                </CardBody>
+              </li>
+
+              <li>
+                <CardBody>
                   Manage all your loan applications in one place
                 </CardBody>
               </li>
@@ -48,7 +54,6 @@ const AboutSection = () => {
         <AboutCardWrapper>
           <AboutCard>
             <CardTitle>For Lenders</CardTitle>
-
             <List>
               <li>
                 <CardBody>
